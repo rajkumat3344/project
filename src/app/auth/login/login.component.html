@@ -1,0 +1,25 @@
+<div class="form-box">
+    <h1 #title>Log In</h1>
+    <form>
+        <div class="input-group">
+            <!-- Email -->
+            <div class="input-field">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" placeholder="Email">
+            </div>
+
+            <!-- Password -->
+            <div class="input-field">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" placeholder="Password">
+            </div>
+            <p>Lost Password <a href="#">Click Here!</a></p>
+
+            <!-- Button -->
+        <div class="btn-field">
+            <button type="button" class="disable" [routerLink]="['/signup']">Sign up</button>
+            <button type="button" [routerLink]="['/login']">Log in</button>
+        </div>
+        </div>
+    </form>
+</div>
